@@ -17,9 +17,9 @@
 
 <script setup>
 import { ref, reactive } from "vue";
-import Content from '../Content/index.vue'
-import Home from '../Home/index.vue'
-import Me from '../Me/index.vue'
+import Content from "../Content/index.nvue";
+import Home from "../Home/index.nvue";
+import Me from "../Me/index.nvue";
 
 const state = reactive({
   textCN: {

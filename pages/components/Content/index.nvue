@@ -1,0 +1,12 @@
+<template>
+  <view class="content">content</view>
+</template>
+
+<script></script>
+
+<style>
+.content {
+  width: 750rpx;
+  background-color: beige;
+}
+</style>

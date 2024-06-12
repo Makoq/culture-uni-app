@@ -9,6 +9,9 @@
 		},
 		onHide: function() {
 			console.log('App Hide')
+		},
+		onTabItemTap(e) {
+			console.log(e)
 		}
 	}
 </script>

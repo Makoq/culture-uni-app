@@ -1,13 +1,12 @@
 <template>
-  <!-- 我的 -->
-  <view class="me"></view>
+  <view class="me">me</view>
 </template>
 
 <script></script>
 
 <style>
 .me {
-  width: 100%;
+   width: 750rpx;
   background-color: aqua;
 }
 </style>

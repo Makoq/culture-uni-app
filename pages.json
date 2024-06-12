@@ -4,12 +4,32 @@
 	},
 	"pages": [
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "Home"
-			}
+			"path": "pages/components/Home/index"
+		},{
+			"path": "pages/components/Me/index"
+		},{
+			"path": "pages/components/Content/index"
 		}
 	],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/components/Home/index",
+				"text": "首页",
+				"iconPath": "static/bottomNav/home.png"
+			},
+			{
+				"pagePath": "pages/components/Me/index",
+				"text": "我的",
+				"iconPath": "static/bottomNav/me.png"
+			},
+			{
+				"pagePath": "pages/components/Content/index",
+				"text": "内容",
+				"iconPath": "static/bottomNav/content.png"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

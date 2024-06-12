@@ -8,10 +8,10 @@
 </template>
 
 <script setup>
-	import Content from '../components/Content/index.vue'
-	import Home from '../components/Home/index.vue'
-	import Me from '../components/Me/index.vue'
-	import BottomNav from '../components/BottomNav/BottomNav.vue'
+	import Content from '../components/Content/index.nvue'
+	import Home from '../components/Home/index.nvue'
+	import Me from '../components/Me/index.nvue'
+	import BottomNav from '../components/BottomNav/BottomNav.nvue'
 </script>
 
 <style>
